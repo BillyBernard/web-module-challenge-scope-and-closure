@@ -59,6 +59,7 @@ You will be running your tests in one terminal and debugging in the other. As yo
 Edit the `ReadMe` file with your answers to the questions below.
 
 1. In your own words, define closure (1-2 sentences).
+-a closure gives us the ability to nest functions together. A closure gives you access to an outer function's scope from the inner function.
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -80,8 +81,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+-the closure is after the second function because it is reaching up into the first function to reference name. 
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+The process and code is the same fro each roll, however the result could be different because of the randomness of the method used.
 c. What is the lexical scope of `newRoll`? 
+-the lexical scope of new roll is only within its function because what is being referenced is also inside of the function. 
 
 
 ### Task 3 - Stretch Goals
